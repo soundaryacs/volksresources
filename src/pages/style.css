@@ -1,0 +1,129 @@
+/* Mobile Sidebar */
+.mobile-sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 999;
+    transform: translateX(-100%); /* Initially hidden off-screen */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mobile-sidebar.active {
+    transform: translateX(0); /* Show menu when active */
+  }
+  
+  .menu-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mobile-nav li {
+    padding: 15px;
+  }
+  
+  .mobile-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .mobile-nav a:hover {
+    background-color: #444;
+  }
+  
+  .mobile-button {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .mobile-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .mobile-button a:hover {
+    background-color: #444;
+  }
+  .project-two__single-box {
+    
+    padding: 20px;
+    color: #333;
+  }
+  
+  .single-project-two__bg {
+    height: 400px;
+    background-size: cover;
+    background-position: left;
+    border-radius: 10px;
+    
+  }
+  
+  .content-box{
+    display: flex;
+    background-color: #ff7a01;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 60%;
+  }
+ 
+  .content h4 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #fff;
+  }
+  .content p {
+    margin-top: 15px;
+    color: #fff;
+  }
+
+  .owl-prev, .owl-next {
+    color: #000; /* Set color of the arrows */
+  }
+  
+  .owl-dots .owl-dot span {
+    background-color: #000; /* Set color of dots */
+  }
+  
+  .owl-dots .owl-dot.active span {
+    background-color: #FF5733; /* Highlight active dot */
+  }
+  .project-two {
+    position: relative;
+    display: block;
+    padding: 140px 0 100px;
+}  
+.slider-container{
+  background-color: #081120;
+  padding: 40px ;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: block !important;
+  padding-top: 40px;
+}
+.button.owl-dot.active{
+  background-color: #ff7a01 !important;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+  padding: 30px;
+}
+.header-area.header-area1 .main-menu-ex ul li .mega-menu-all{
+      padding: 0px;
+}
+.header-area.header-area1 .header-elements .main-menu-ex ul li ul{
+  top: 35px !important;
+}
+.slider-container .slick-slide {
+  padding: 0 10px; /* Adjust the horizontal padding for the gap */
+}
