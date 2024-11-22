@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/volksresources/static/css/main.87c526cd.css",
+    "main.js": "/volksresources/static/js/main.ab79ec5e.js",
+    "static/js/453.5b7514a4.chunk.js": "/volksresources/static/js/453.5b7514a4.chunk.js",
+    "index.html": "/volksresources/index.html",
+    "main.87c526cd.css.map": "/volksresources/static/css/main.87c526cd.css.map",
+    "main.ab79ec5e.js.map": "/volksresources/static/js/main.ab79ec5e.js.map",
+    "453.5b7514a4.chunk.js.map": "/volksresources/static/js/453.5b7514a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87c526cd.css",
+    "static/js/main.ab79ec5e.js"
+  ]
+}
